@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93862E951C5CE9EC00BAC961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93862E941C5CE9EC00BAC961 /* main.m */; };
+		93862E981C5CE9EC00BAC961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93862E971C5CE9EC00BAC961 /* AppDelegate.m */; };
+		93862E9B1C5CE9EC00BAC961 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93862E9A1C5CE9EC00BAC961 /* ViewController.m */; };
+		93862E9E1C5CE9EC00BAC961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93862E9C1C5CE9EC00BAC961 /* Main.storyboard */; };
+		93862EA01C5CE9EC00BAC961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93862E9F1C5CE9EC00BAC961 /* Assets.xcassets */; };
+		93862EA31C5CE9EC00BAC961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93862EA11C5CE9EC00BAC961 /* LaunchScreen.storyboard */; };
+		93862EAE1C5CE9EC00BAC961 /* DesafioCorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93862EAD1C5CE9EC00BAC961 /* DesafioCorViewTests.m */; };
+		93862EB91C5CE9EC00BAC961 /* DesafioCorViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93862EB81C5CE9EC00BAC961 /* DesafioCorViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93862EAA1C5CE9EC00BAC961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93862E881C5CE9EC00BAC961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93862E8F1C5CE9EC00BAC961;
+			remoteInfo = DesafioCorView;
+		};
+		93862EB51C5CE9EC00BAC961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93862E881C5CE9EC00BAC961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93862E8F1C5CE9EC00BAC961;
+			remoteInfo = DesafioCorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93862E901C5CE9EC00BAC961 /* DesafioCorView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioCorView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93862E941C5CE9EC00BAC961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93862E961C5CE9EC00BAC961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93862E971C5CE9EC00BAC961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93862E991C5CE9EC00BAC961 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93862E9A1C5CE9EC00BAC961 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93862E9D1C5CE9EC00BAC961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93862E9F1C5CE9EC00BAC961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93862EA21C5CE9EC00BAC961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93862EA41C5CE9EC00BAC961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93862EA91C5CE9EC00BAC961 /* DesafioCorViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioCorViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93862EAD1C5CE9EC00BAC961 /* DesafioCorViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesafioCorViewTests.m; sourceTree = "<group>"; };
+		93862EAF1C5CE9EC00BAC961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93862EB41C5CE9EC00BAC961 /* DesafioCorViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioCorViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93862EB81C5CE9EC00BAC961 /* DesafioCorViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesafioCorViewUITests.m; sourceTree = "<group>"; };
+		93862EBA1C5CE9EC00BAC961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93862E8D1C5CE9EC00BAC961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93862EA61C5CE9EC00BAC961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93862EB11C5CE9EC00BAC961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93862E871C5CE9EB00BAC961 = {
+			isa = PBXGroup;
+			children = (
+				93862E921C5CE9EC00BAC961 /* DesafioCorView */,
+				93862EAC1C5CE9EC00BAC961 /* DesafioCorViewTests */,
+				93862EB71C5CE9EC00BAC961 /* DesafioCorViewUITests */,
+				93862E911C5CE9EC00BAC961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93862E911C5CE9EC00BAC961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93862E901C5CE9EC00BAC961 /* DesafioCorView.app */,
+				93862EA91C5CE9EC00BAC961 /* DesafioCorViewTests.xctest */,
+				93862EB41C5CE9EC00BAC961 /* DesafioCorViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93862E921C5CE9EC00BAC961 /* DesafioCorView */ = {
+			isa = PBXGroup;
+			children = (
+				93862E961C5CE9EC00BAC961 /* AppDelegate.h */,
+				93862E971C5CE9EC00BAC961 /* AppDelegate.m */,
+				93862E991C5CE9EC00BAC961 /* ViewController.h */,
+				93862E9A1C5CE9EC00BAC961 /* ViewController.m */,
+				93862E9C1C5CE9EC00BAC961 /* Main.storyboard */,
+				93862E9F1C5CE9EC00BAC961 /* Assets.xcassets */,
+				93862EA11C5CE9EC00BAC961 /* LaunchScreen.storyboard */,
+				93862EA41C5CE9EC00BAC961 /* Info.plist */,
+				93862E931C5CE9EC00BAC961 /* Supporting Files */,
+			);
+			path = DesafioCorView;
+			sourceTree = "<group>";
+		};
+		93862E931C5CE9EC00BAC961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93862E941C5CE9EC00BAC961 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93862EAC1C5CE9EC00BAC961 /* DesafioCorViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				93862EAD1C5CE9EC00BAC961 /* DesafioCorViewTests.m */,
+				93862EAF1C5CE9EC00BAC961 /* Info.plist */,
+			);
+			path = DesafioCorViewTests;
+			sourceTree = "<group>";
+		};
+		93862EB71C5CE9EC00BAC961 /* DesafioCorViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93862EB81C5CE9EC00BAC961 /* DesafioCorViewUITests.m */,
+				93862EBA1C5CE9EC00BAC961 /* Info.plist */,
+			);
+			path = DesafioCorViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93862E8F1C5CE9EC00BAC961 /* DesafioCorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93862EBD1C5CE9EC00BAC961 /* Build configuration list for PBXNativeTarget "DesafioCorView" */;
+			buildPhases = (
+				93862E8C1C5CE9EC00BAC961 /* Sources */,
+				93862E8D1C5CE9EC00BAC961 /* Frameworks */,
+				93862E8E1C5CE9EC00BAC961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioCorView;
+			productName = DesafioCorView;
+			productReference = 93862E901C5CE9EC00BAC961 /* DesafioCorView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93862EA81C5CE9EC00BAC961 /* DesafioCorViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93862EC01C5CE9EC00BAC961 /* Build configuration list for PBXNativeTarget "DesafioCorViewTests" */;
+			buildPhases = (
+				93862EA51C5CE9EC00BAC961 /* Sources */,
+				93862EA61C5CE9EC00BAC961 /* Frameworks */,
+				93862EA71C5CE9EC00BAC961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93862EAB1C5CE9EC00BAC961 /* PBXTargetDependency */,
+			);
+			name = DesafioCorViewTests;
+			productName = DesafioCorViewTests;
+			productReference = 93862EA91C5CE9EC00BAC961 /* DesafioCorViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93862EB31C5CE9EC00BAC961 /* DesafioCorViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93862EC31C5CE9EC00BAC961 /* Build configuration list for PBXNativeTarget "DesafioCorViewUITests" */;
+			buildPhases = (
+				93862EB01C5CE9EC00BAC961 /* Sources */,
+				93862EB11C5CE9EC00BAC961 /* Frameworks */,
+				93862EB21C5CE9EC00BAC961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93862EB61C5CE9EC00BAC961 /* PBXTargetDependency */,
+			);
+			name = DesafioCorViewUITests;
+			productName = DesafioCorViewUITests;
+			productReference = 93862EB41C5CE9EC00BAC961 /* DesafioCorViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93862E881C5CE9EC00BAC961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Trainning Educational";
+				TargetAttributes = {
+					93862E8F1C5CE9EC00BAC961 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					93862EA81C5CE9EC00BAC961 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 93862E8F1C5CE9EC00BAC961;
+					};
+					93862EB31C5CE9EC00BAC961 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 93862E8F1C5CE9EC00BAC961;
+					};
+				};
+			};
+			buildConfigurationList = 93862E8B1C5CE9EC00BAC961 /* Build configuration list for PBXProject "DesafioCorView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93862E871C5CE9EB00BAC961;
+			productRefGroup = 93862E911C5CE9EC00BAC961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93862E8F1C5CE9EC00BAC961 /* DesafioCorView */,
+				93862EA81C5CE9EC00BAC961 /* DesafioCorViewTests */,
+				93862EB31C5CE9EC00BAC961 /* DesafioCorViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93862E8E1C5CE9EC00BAC961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93862EA31C5CE9EC00BAC961 /* LaunchScreen.storyboard in Resources */,
+				93862EA01C5CE9EC00BAC961 /* Assets.xcassets in Resources */,
+				93862E9E1C5CE9EC00BAC961 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93862EA71C5CE9EC00BAC961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93862EB21C5CE9EC00BAC961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93862E8C1C5CE9EC00BAC961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93862E9B1C5CE9EC00BAC961 /* ViewController.m in Sources */,
+				93862E981C5CE9EC00BAC961 /* AppDelegate.m in Sources */,
+				93862E951C5CE9EC00BAC961 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93862EA51C5CE9EC00BAC961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93862EAE1C5CE9EC00BAC961 /* DesafioCorViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93862EB01C5CE9EC00BAC961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93862EB91C5CE9EC00BAC961 /* DesafioCorViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93862EAB1C5CE9EC00BAC961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93862E8F1C5CE9EC00BAC961 /* DesafioCorView */;
+			targetProxy = 93862EAA1C5CE9EC00BAC961 /* PBXContainerItemProxy */;
+		};
+		93862EB61C5CE9EC00BAC961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93862E8F1C5CE9EC00BAC961 /* DesafioCorView */;
+			targetProxy = 93862EB51C5CE9EC00BAC961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93862E9C1C5CE9EC00BAC961 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93862E9D1C5CE9EC00BAC961 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93862EA11C5CE9EC00BAC961 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93862EA21C5CE9EC00BAC961 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93862EBB1C5CE9EC00BAC961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93862EBC1C5CE9EC00BAC961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93862EBE1C5CE9EC00BAC961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesafioCorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.curso.DesafioCorView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93862EBF1C5CE9EC00BAC961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesafioCorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.curso.DesafioCorView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93862EC11C5CE9EC00BAC961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DesafioCorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.curso.DesafioCorViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioCorView.app/DesafioCorView";
+			};
+			name = Debug;
+		};
+		93862EC21C5CE9EC00BAC961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DesafioCorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.curso.DesafioCorViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioCorView.app/DesafioCorView";
+			};
+			name = Release;
+		};
+		93862EC41C5CE9EC00BAC961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesafioCorViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.curso.DesafioCorViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DesafioCorView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		93862EC51C5CE9EC00BAC961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesafioCorViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.curso.DesafioCorViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DesafioCorView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93862E8B1C5CE9EC00BAC961 /* Build configuration list for PBXProject "DesafioCorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93862EBB1C5CE9EC00BAC961 /* Debug */,
+				93862EBC1C5CE9EC00BAC961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93862EBD1C5CE9EC00BAC961 /* Build configuration list for PBXNativeTarget "DesafioCorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93862EBE1C5CE9EC00BAC961 /* Debug */,
+				93862EBF1C5CE9EC00BAC961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93862EC01C5CE9EC00BAC961 /* Build configuration list for PBXNativeTarget "DesafioCorViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93862EC11C5CE9EC00BAC961 /* Debug */,
+				93862EC21C5CE9EC00BAC961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93862EC31C5CE9EC00BAC961 /* Build configuration list for PBXNativeTarget "DesafioCorViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93862EC41C5CE9EC00BAC961 /* Debug */,
+				93862EC51C5CE9EC00BAC961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93862E881C5CE9EC00BAC961 /* Project object */;
+}
